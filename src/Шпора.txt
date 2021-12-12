@@ -1,0 +1,45 @@
+styles{
+
+font-size: 20px;   - размер текста
+color: #ffffff; - цвет в RGB или color: rgb(..., ..., ...);
+
+обращение к классу .text{ !important директива приоритета
+
+}
+
+p{
+	font-family: шрифты
+	font-size: размер шрифта
+	text-align: start/end/justify выравнивание
+	text-decoration: underline/overline.. полоса
+	text-shadow: 1px 1px 1px #000 горизонталь, вертикаль, размытость, цвет
+	text-transform: uppercase (заглавные) lowercase/ capitalise (каждое слово с заглавной)
+	text-indent: 50px красная строка
+	letter-spacing: 5px интервал между букв
+	line-height: 50px высота строки
+	white space: nowrap(без переносов) normal перенос строки
+	word-spacing: 10px пробелы 
+	}
+
+	margin  внешний отступ (преимущественно для блочных элементов)
+	padding  внутренний отступ (свехру, справа, снизу, слева)
+
+	overflow - способ отображения текста в блоке
+	display - формат отображения
+	box-sizibg - border-box
+	box-shadow - то же самое но для рамки блока (inset - тень внутри)
+	opacity - непрозрачность
+	visibility - видимость
+
+	background-color: цвет фона rgba (для прозрачности)   hextorgba.devoth.com
+	background-image url("") фоновая картинка
+	linear-gradient (to bottom rgba() 0% rgba() 50% rgba() 100%)  colorzilla автокодер градиента
+	background-repeat: no-repeat/repeat (x\y\round)
+	background-position:
+	background-attachment: fixed\..\
+	background-size: 
+	
+
+
+
+}

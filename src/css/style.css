@@ -75,6 +75,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 }
 
 .about_me h2{
+	text-decoration: underline;
 	margin-top: 175px;
 	font-size: 30px;	
 }
@@ -85,18 +86,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 }
 
 .item_skills{
-	float: left;
 	padding-left: 500px;
+	height: 200px;
+
 }
 
 .item_skills li{
+	margin: 20px 57px 0px 45px;
 	float: left;
+	text-align: center;
 }
 
 .item_skills h2{
+	text-decoration: underline;
 	font-size: 20px;
 	text-align: left;
-	margin-left: 7px;
+	margin-left: 400px;
 	margin-top: 15px;
 }
 
@@ -110,9 +115,105 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 	font-size: 20px;
 }
 
-.cost_calcularion{
+.cost_calculation{
+
+	padding-left: 10px;
+}
+
+.cost_calculation h2{
+	text-decoration: underline;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.cost_calculation h4{
+	font-size: 19px;
+	text-align: center;
+	height: 40px;
+
+}
+
+.cost_calculation select{
+	text-align: left;
+	padding-left: 892px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+.achivements{
+	padding-left: 500px;
+	height: 200px;
+}
+
+.achivements h1{
+	font-size: 30px;
+	padding-left: 370px;
+	text-decoration: underline;
+}
+
+.achivements li{
 	float: left;
+	margin-top: 30px;
+	margin-right: 195px;
+}
+
+.achivements h4{
+	font-size: 25px;
+	padding-left: 80px;
+}
+
+.achivements p{
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.feedback{
+	padding-left: 30px;
+	text-align: center;
 }
 
 
+.feedback h2{
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+.feedback h4{
+	font-size: 20px;
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+
+.sourse{
+	height: 140px;
+	background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b55eb3+0,3e21b2+35,00b2af+62,3d0066+100 */
+background: rgb(181,94,179); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(181,94,179,1) 0%, rgba(62,33,178,1) 35%, rgba(0,178,175,1) 62%, rgba(61,0,102,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(181,94,179,1) 0%,rgba(62,33,178,1) 35%,rgba(0,178,175,1) 62%,rgba(61,0,102,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(181,94,179,1) 0%,rgba(62,33,178,1) 35%,rgba(0,178,175,1) 62%,rgba(61,0,102,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', endColorstr='#3d0066',GradientType=1 ); /* IE6-9 */;
+	padding-left: 35px;
+	text-align: center;
+}
+
+.sourse h2{
+	font-size: 25px;
+	padding-top: 30px;
+	text-decoration: underline;
+}
+
+.sourse li{
+	float: left;
+	padding-top: 30px;
+	margin-left: 357px;
+}
+
+.sourse h4{
+	font-size: 18px;
+}
+
+.sourse p{
+	font-size: 15px;
+}
 

@@ -61,7 +61,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 .title__container input{
 	height: 40px;
 	text-align: center;
-	border: 2px solid #20B2AA;
+	border: 2px solid #7FFFD4;
 	background: none;
 	border-radius: 5px;
 	color: white;
@@ -75,19 +75,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 }
 
 .about_me h2{
-	text-decoration: underline;
+	margin-bottom: 80px;
+	text-decoration: underline #40E0D0;	 
 	margin-top: 175px;
 	font-size: 30px;	
 }
 
+.about_me img{
+	border: 3px solid #40E0D0;
+	margin-top: 80px;
+	height: 175px;
+	width: 180px;
+	border-radius: 100px;
+	margin-bottom: 80px;
+}
+
 .about_me h4{
+	line-height: 30px;
 	margin-top: 15px;
-	font-size: 18px;
+	font-size: 20px;
+	margin-bottom: 200px;
 }
 
 .item_skills{
+	background: url(../img/about-me-bg.jpg) center/cover; 
 	padding-left: 500px;
-	height: 200px;
+	height: 400px;
 
 }
 
@@ -98,58 +111,77 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 }
 
 .item_skills h2{
-	text-decoration: underline;
-	font-size: 20px;
+	padding-top: 40px;
+	text-decoration: underline #40E0D0;
+	font-size: 35px;
 	text-align: left;
-	margin-left: 400px;
+	margin-left: 355px;
 	margin-top: 15px;
 }
 
 .item_skills img{
+	margin-bottom: 30px;
+	margin-top: 100px;
 	margin-left: 7px;
 	width: 50px;
 	height: 50px;
+
 }
 
 .item_skills h4{
 	font-size: 20px;
 }
 
-.cost_calculation{
+.item_skills p{
+	margin-top: 10px;
+	font-size: 15px;
+}
 
+.cost_calculation{
+	margin-top: 200px;
 	padding-left: 10px;
 }
 
 .cost_calculation h2{
-	text-decoration: underline;
-	font-size: 25px;
+	padding-bottom: 40px;
+	text-decoration: underline #40E0D0;
+	font-size: 30px;
 	text-align: center;
 	margin-bottom: 30px;
 }
 
 .cost_calculation h4{
 	font-size: 19px;
-	text-align: center;
+	text-align: left;
+	margin-left: 700px;
 	height: 40px;
 
 }
 
 .cost_calculation select{
+	border: 2px solid #40E0D0;
+	border-radius: 10px;
 	text-align: left;
-	padding-left: 892px;
+	margin-left: 700px;
 	margin-bottom: 20px;
-	font-size: 15px;
+	font-size: 17px;
+	height: 50px;
+	width: 500px;
 }
 
 .achivements{
+	background: url(../img/s3.jpg);
+	margin-top: 200px;
 	padding-left: 500px;
-	height: 200px;
+	height: 400px;
 }
 
 .achivements h1{
+	padding-top: 40px;
+	padding-bottom: 40px;
 	font-size: 30px;
 	padding-left: 370px;
-	text-decoration: underline;
+	text-decoration: underline #40E0D0;
 }
 
 .achivements li{
@@ -161,14 +193,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 .achivements h4{
 	font-size: 25px;
 	padding-left: 80px;
+	padding-top: 20px;
 }
 
+.achivements img{
+	height: 50px;
+	width: 60px;
+	margin-left: 56px;
+
+}
 .achivements p{
 	font-size: 18px;
-	margin-top: 10px;
+	padding-top: 30px;
 }
 
 .feedback{
+	margin-bottom: 300px;
+	margin-top: 200px;
 	padding-left: 30px;
 	text-align: center;
 }
@@ -176,7 +217,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 
 .feedback h2{
 	font-size: 30px;
-	text-decoration: underline;
+	text-decoration: underline #40E0D0;
 }
 
 .feedback h4{
@@ -198,22 +239,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 }
 
 .sourse h2{
+	color: white;
 	font-size: 25px;
-	padding-top: 30px;
-	text-decoration: underline;
+	padding-top: 15px;
+	text-decoration: underline #40E0D0;
 }
 
 .sourse li{
+	color: white;
 	float: left;
 	padding-top: 30px;
 	margin-left: 357px;
 }
 
 .sourse h4{
+	color: white;
 	font-size: 18px;
 }
 
 .sourse p{
 	font-size: 15px;
+	padding-top: 10px;
+	color: #40E0D0;
+}
+
+.sourse a{
+	color: #40E0D0;
 }
 

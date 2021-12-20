@@ -5,6 +5,8 @@ body{
 nav{
 	width: 1903px;
 	height: 60px;
+	position: fixed;
+	z-index: 1000;
 	background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b55eb3+0,3e21b2+35,00b2af+62,3d0066+100 */
 background: rgb(181,94,179); /* Old browsers */
 background: -moz-linear-gradient(left,  rgba(181,94,179,1) 0%, rgba(62,33,178,1) 35%, rgba(0,178,175,1) 62%, rgba(61,0,102,1) 100%); /* FF3.6-15 */
@@ -19,7 +21,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 	line-height: 60px;
 	padding-left: 350px;
 	float: left;
+	-webkit-animation: comming 2s ease;
+	-o-animation: comming 2s ease;
+	animation: comming 2s ease;
 }
+
+@keyframes comming{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
 
 .menu{
 	float: left;
@@ -32,11 +48,68 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 	margin-right: 40px;
 	font-size: 16px;
 	text-transform: uppercase;
+	opacity: 0;
+	-webkit-animation: topshift 0.4s ease forwards;
+	-o-animation: topshift 0.4s ease forwards;
+	animation: topshift 0.4s ease forwards;
 }
 
-.main{
+@keyframes topshift{
+	from{
+		opacity: 0;
+		margin-top: -80px;
+
+	}
+
+	to{
+		opacity: 1;
+		margin-top: 0px;
+
+	}
+}
+
+.menu li:nth-child(2){
+	animation-delay: 0.4s;
+}
+
+.menu li:nth-child(3){
+	animation-delay: 0.8s;
+}
+
+.menu li:nth-child(4){
+	animation-delay: 1.2s;
+}
+
+.menu li:nth-child(5){
+	animation-delay: 1.6s;
+}
+
+.menu li:nth-child(6){
+	animation-delay: 2s;
+}
+
+.menu li a{
+	transition: all 0.1s;
+	color: black;
+	display: inline-block;
+}
+
+.menu li a:active{
+
+}
+
+.menu li a:visited{
+	color: black;
+}
+
+.menu li a:hover{
+	color: white;
+	transform: scale(1.2);
+}
+
+main{
 	width: 100%;
-	height: calc(100% - 60px);
+	height: 100%;
 	background: url(../img/space.jpg) center/cover no-repeat;
 	border-bottom: width 1px;
 	box-shadow: 0px 7px 5px #000;
@@ -47,6 +120,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 	margin: 350px 0px 0px 360px;
 	color: white;
 	text-align: center;
+	-webkit-animation: titlemove 1s ease;
+	-o-animation: titlemove 1s ease;
+	animation: titlemove 1s ease;
+	-webkit-animation-delay: titlemove 2s ease forwards;
+	-o-animation-delay: titlemove 2s ease forwards;
+	animation-delay: titlemove 2s ease forwards;
+
+}
+
+@keyframes titlemove{
+	from{
+		opacity: 0;
+		margin-left: -600px;
+
+	}
+
+	to{
+		opacity: 1;
+		margin-left: 360px;
+
+	}
 }
 
 .title__container h1{
@@ -68,6 +162,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 	font-size: 13px;
 	padding: 0px 15px;
 	margin: 20px 15px;
+}
+
+.title__container input{
+	transition: all 0.2s;
+}
+
+.title__container input:hover{
+	background-color: #40E0D0;
+}
+
+.title__container input:active{
+	transform: scale(1.2);
 }
 
 .about_me{
@@ -169,6 +275,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 	width: 500px;
 }
 
+.cost_calculation select{
+	transition: all 0.1s;
+}
+
+.cost_calculation select:hover{
+	background-color: #40E0D0;
+	transform: scale(1.05);
+}
+
+.cost_calculation select:active{
+	transform: scale(1.02);
+}
+
+.cost_calculation option:hover{
+	background-color: #40E0D0;
+}
+
 .achivements{
 	background: url(../img/s3.jpg);
 	margin-top: 200px;
@@ -200,8 +323,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 	height: 50px;
 	width: 60px;
 	margin-left: 56px;
-
+	transition: all 1s;
+	animation: heartBeat;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
 }
+
 .achivements p{
 	font-size: 18px;
 	padding-top: 30px;
@@ -227,7 +354,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 }
 
 .sourse{
-	height: 140px;
+	height: 600px;
 	background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b55eb3+0,3e21b2+35,00b2af+62,3d0066+100 */
 background: rgb(181,94,179); /* Old browsers */
 background: -moz-linear-gradient(left,  rgba(181,94,179,1) 0%, rgba(62,33,178,1) 35%, rgba(0,178,175,1) 62%, rgba(61,0,102,1) 100%); /* FF3.6-15 */
@@ -248,7 +375,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 .sourse li{
 	color: white;
 	float: left;
-	padding-top: 30px;
+	padding-top: 50px;
 	margin-left: 357px;
 }
 
@@ -261,9 +388,68 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 	font-size: 15px;
 	padding-top: 10px;
 	color: #40E0D0;
+	transition: all 0.5s;
+}
+
+.sourse p:hover{
+	transform: scale(1.2);
 }
 
 .sourse a{
 	color: #40E0D0;
 }
+
+.sourse h1{
+	color: white;
+	font-size: 25px;
+	text-decoration: underline #40E0D0;
+	text-align: center;
+	padding-top: 170px;
+}
+
+.write{
+	font-size: 20px;
+	margin-top: 30px;
+	height: 300px;
+	width: 800px;
+	text-align: start;
+	border: 2px solid #40E0D0;
+	border-radius: 15px;
+	margin-left: 70px;
+}
+
+.sourse input{
+	transition: all 0.5s;
+}
+
+.sourse: hover{
+	
+}
+
+.send{
+	font-size: 20px;
+	height: 30px;
+	width: 120px;
+	text-align: center;
+	border: 2px solid #40E0D0;
+	border-radius: 15px;
+	margin-left: 30px;
+	transition: all 0.5s;
+}
+
+.send:hover{
+	transform: scale(1.1);
+	background-color: #40E0D0;
+}
+
+.send:active{
+	transform: scale(0.9);	
+}
+
+
+
+
+	
+
+
 

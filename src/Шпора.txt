@@ -40,6 +40,124 @@ p{
 	background-size: 
 	
 
+	margin: 0 auto - выравнивание по горизонтальному центру
+
+position: absolute / relative / fixed (фиксация при скроле) - дает возможность перемещать блок командами top / bottom / right / left  от первичного положения sticky (прилипание к верхнему краю при скролле)
+z-index: 1 - слои
+
+div / header / footer / aside / article / nav / body / section 
+
+input(checkbox - поле с галкой
+
+ mark - подстветка текста желтым
+
+ time - время  <time datetime"yyyy-mm-dd"
+
+ <progress   min="0" max="100" value="" - прогресс бар
+
+ <details>
+  <summary>спойлер</
+     текст
+
+ <audio controls> controls - добавляет управление аудиодорожкой
+  <source src="" type="формат"
+ <video width="" height="" controls posters="путь к обложке" 
+   <source
 
 
-}
+<h1 contenteditable="true/false" - добавляет возможность редачить контент прямо на странице
+<!--коментарий-->
+
+<canvas> холст с возможностью добавить анимации и т.д.
+
+<form id="form_email" action="qwerty"
+ <input id="email" type="email" autocomplete="off/on" required - вводит необходимость поля к заполнению readonly - только для чтения form="form_email" pattern="[A-Z]{3}-[0-9]{4}"
+ <input type="submit"
+ <input type="color"
+ <input type="date"
+ <input type="number"
+ <input type="range" min max value
+ <input type="tel"
+ <input type="time"
+ <input type="url"
+
+
+
+           АНИМАЦИИ 
+ a: active {
+   активное состояние
+ }
+
+ a: hover {
+  анимирует наведение 
+ }
+
+ a: visited{
+  уже посещенные ссылки 
+ }
+
+ input: focus {  при выборе области ввода
+  border: 3px solid green;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.8)
+ }
+  
+ li: first-child{  фрагмент из списка     nth-child(1) задает конкретный номер  (even/odd) четный / не четный 1n 2n 3n
+  background: red 
+ }
+
+ webred.ru  ГЛОБАЛЬНЫЙ СПРАВОЧНИК 
+
+ p::first-line{первая строка
+ p::first-letter{первая буква
+ li::before{
+
+   content: ""
+   display: inline-block
+   w10
+   h10
+   background-color: red
+   border-radius 50%
+   margin-right 10px
+
+ li::after{
+   content: ""
+
+
+  transition-duration: 1s - устанавливает время проведения анимации 
+  transition-property: all - для всех внутренних составляющих . можно через запятую указать все нужные свойства 
+  transition-delay задержка 
+  ttf : linear / ease (in-out) / cubic-bezier (по соответствующему сайту)
+  tde 
+  transition: propery duration delay type    числовые значение через пробелы
+
+
+animation-iteration-count - количество повторений анимации 
+animation-direction - normal -вперед / reverse - в обратную сторону / alternate - туда и обратно
+animation-play-state: paused - пауза при наведении
+animation-fill-node: none / forwards / backwards - возвращение 
+animation: move 1s linear reverse infinite , bg-color 2s infinite - универсальная запись
+
+
+  @keyframes: move{  перед этим пишем не transition- а animation 
+     from{
+     background: red   вместо from to можно использовать проценты
+     }
+
+     to{
+     background: blue
+     }
+
+      @keyframes: bg-color{
+      0%{
+      background-color: red
+      }
+      100%{
+      background-color: #fff 
+      }
+  }
+
+   ------------- animate.style ------------ сайт с анимациями
+
+
+
+   

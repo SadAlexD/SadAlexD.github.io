@@ -17,9 +17,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 
 .logo{
 	color: black;
-	font-size: 28px;
+	font-size: 26px;
 	line-height: 60px;
-	padding-left: 350px;
 	float: left;
 	-webkit-animation: comming 2s ease;
 	-o-animation: comming 2s ease;
@@ -39,13 +38,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 
 .menu{
 	float: left;
-	padding-left: 490px;
 }
 
 .menu li{
 	float: left;
 	line-height: 60px;
-	margin-right: 40px;
+	margin-right: 35px;
 	font-size: 16px;
 	text-transform: uppercase;
 	opacity: 0;
@@ -68,6 +66,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 	}
 }
 
+
 .menu li:nth-child(2){
 	animation-delay: 0.4s;
 }
@@ -88,21 +87,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 	animation-delay: 2s;
 }
 
-.menu li a{
+
+.menu li{
 	transition: all 0.1s;
 	color: black;
 	display: inline-block;
 }
 
-.menu li a:active{
+.menu li:active{
 
 }
 
-.menu li a:visited{
+.menu li:visited{
 	color: black;
 }
 
-.menu li a:hover{
+.menu li:hover{
 	color: white;
 	transform: scale(1.2);
 }
@@ -116,8 +116,8 @@ main{
 }
 
 .title__container{
+	width: 100%;
 	float: left;
-	margin: 350px 0px 0px 360px;
 	color: white;
 	text-align: center;
 	-webkit-animation: titlemove 1s ease;
@@ -138,13 +138,15 @@ main{
 
 	to{
 		opacity: 1;
-		margin-left: 360px;
+		margin-left: 0px;
 
 	}
 }
 
 .title__container h1{
-	font-size: 50px;
+	font-family: Arial, sans-serif;
+	font-size: 60px;
+	font-weight: 600;
 }
 
 .title__container  h4{
@@ -280,12 +282,11 @@ main{
 }
 
 .cost_calculation select:hover{
-	background-color: #40E0D0;
 	transform: scale(1.05);
 }
 
 .cost_calculation select:active{
-	transform: scale(1.02);
+	background-color: #40E0D0;
 }
 
 .cost_calculation option:hover{
@@ -298,6 +299,11 @@ main{
 	padding-left: 500px;
 	height: 400px;
 }
+
+/* PARALLAX */
+
+
+/*PARALLAX*/
 
 .achivements h1{
 	padding-top: 40px;
@@ -518,6 +524,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 
 .loaded .preloader {
   display: none;
+
+  /* ПРЕЛОДЕР */
 
 	
 

@@ -9,8 +9,11 @@
 	<meta property="og:title" content="1st page">
 	<title>ChainedDog_WebDesigner</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	
 </head>
 
 
@@ -35,25 +38,52 @@
 
 
 	<nav>
-		<div class="logo">ChainedDog</div>
-		<div class="menu"><ul>
-			<li><a href="">Обо мне<a></li>
-			<li><a href="">Услуги<a></li>
-			<li><a href="">Кейсы<a></li>
-			<li><a href="">Прайс<a></li>
-			<li><a href="">Отзывы<a></li>
-			<li><a href="">Контакты<a></li>
+		<div class="container">
+			<div class="raw">
+				<div class="col-xxl-2 col-xl-3 col-lg-3 col-7 offset-none"><div class="logo">ChainedDog</div></div>
+				<div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-1 d-none d-lg-block"><div class="menu"><ul>
+			<li>Обо мне</li>
+			<li>Услуги</li>
+			<li>Кейсы</li>
+			<li>Прайс</li>
+			<li>Отзывы</li>
+			<li>Контакты</li>
 			</ul>
+		</div></div>
+
+		<div class="col-5 d-flex d-lg-none flex-column justify-content-center aling-items-end">
+			<div class="dropdown">
+  <button class="btn btn-outline-info dropdown-toggle menu_button" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Меню
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Обо мне</a></li>
+    <li><a class="dropdown-item" href="#">Услуги</a></li>
+    <li><a class="dropdown-item" href="#">Кейсы</a></li>
+    <li><a class="dropdown-item" href="#">Прайс</a></li>
+    <li><a class="dropdown-item" href="#">Отзывы</a></li>
+    <li><a class="dropdown-item" href="#">Контакты</a></li>
+  </ul>
+</div>
+
 		</div>
-	</nav>
+	</div>	
+</nav>
+
 </header>
 
 <main>
-	<section class="main"><div class="title__container">
+	<section class="main">
+		<div class="container h-100"><div class="row align-items-center h-100"><div class="col-lg-6 mt-5 pt-5">
+
+	<div class="title__container mt-5">
 	<h1>Привет<br>Я Александр Корж</h1>
 	<h4>Начинающий Web-разработчик</h4>
 	<input type="button" value="About me">
 	<input type="button" value="Portfolio">
+</div>
+</div>
+</div>
 </div>
 </section>
 </main>
@@ -116,6 +146,16 @@
 </div>
  
 <div class="achivements">
+
+	<div class="parallax">
+  <div class="parallax__layer parallax__layer--back">
+    
+  </div>
+  <div class="parallax__layer parallax__layer--base">
+   
+  </div>
+</div>
+
 <h1>Доска почета</h1>
 <ul>
 	<li>
@@ -160,6 +200,6 @@
 
 </nav>
 </header>
-	
+<script src="js/bootstrap.bundle.min.js"></script>	
 </body>
 </html>

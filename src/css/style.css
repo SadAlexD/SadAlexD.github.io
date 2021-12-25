@@ -3,7 +3,7 @@ body{
 }
 
 nav{
-	width: 1903px;
+	width: 100%;
 	height: 60px;
 	position: fixed;
 	z-index: 1000;
@@ -44,7 +44,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 	float: left;
 	line-height: 60px;
 	margin-right: 35px;
-	font-size: 16px;
+	font-size: 15px;
 	text-transform: uppercase;
 	opacity: 0;
 	-webkit-animation: topshift 0.4s ease forwards;
@@ -145,7 +145,7 @@ main{
 
 .title__container h1{
 	font-family: Arial, sans-serif;
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: 600;
 }
 
@@ -206,14 +206,14 @@ main{
 }
 
 .item_skills{
+	border: 2px solid;
 	background: url(../img/about-me-bg.jpg) center/cover; 
-	padding-left: 500px;
 	height: 400px;
-
 }
 
 .item_skills li{
-	margin: 20px 57px 0px 45px;
+	padding-right: 50px;
+	padding-top: 50px;
 	float: left;
 	text-align: center;
 }
@@ -223,21 +223,21 @@ main{
 	text-decoration: underline #40E0D0;
 	font-size: 35px;
 	text-align: left;
-	margin-left: 355px;
 	margin-top: 15px;
 }
 
 .item_skills img{
 	margin-bottom: 30px;
-	margin-top: 100px;
-	margin-left: 7px;
+	margin-top: 100px;	
 	width: 50px;
 	height: 50px;
+	margin: 0 auto;
 
 }
 
 .item_skills h4{
-	font-size: 20px;
+	font-size: 19px;
+	margin-top: 10px;
 }
 
 .item_skills p{
@@ -247,7 +247,7 @@ main{
 
 .cost_calculation{
 	margin-top: 200px;
-	padding-left: 10px;
+	
 }
 
 .cost_calculation h2{
@@ -260,8 +260,7 @@ main{
 
 .cost_calculation h4{
 	font-size: 19px;
-	text-align: left;
-	margin-left: 700px;
+
 	height: 40px;
 
 }
@@ -269,12 +268,10 @@ main{
 .cost_calculation select{
 	border: 2px solid #40E0D0;
 	border-radius: 10px;
-	text-align: left;
-	margin-left: 700px;
 	margin-bottom: 20px;
 	font-size: 17px;
 	height: 50px;
-	width: 500px;
+	width: 82%;
 }
 
 .cost_calculation select{
@@ -296,7 +293,7 @@ main{
 .achivements{
 	background: url(../img/s3.jpg);
 	margin-top: 200px;
-	padding-left: 500px;
+	
 	height: 400px;
 }
 
@@ -309,14 +306,15 @@ main{
 	padding-top: 40px;
 	padding-bottom: 40px;
 	font-size: 30px;
-	padding-left: 370px;
+	
 	text-decoration: underline #40E0D0;
 }
 
 .achivements li{
+		padding-left: 10%;
 	float: left;
 	margin-top: 30px;
-	margin-right: 195px;
+	
 }
 
 .achivements h4{
@@ -369,6 +367,7 @@ background: linear-gradient(to right,  rgba(181,94,179,1) 0%,rgba(62,33,178,1) 3
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', endColorstr='#3d0066',GradientType=1 ); /* IE6-9 */;
 	padding-left: 35px;
 	text-align: center;
+	width: 100%;
 }
 
 .sourse h2{
@@ -380,9 +379,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 
 .sourse li{
 	color: white;
-	float: left;
+	display: flex;
+
 	padding-top: 50px;
-	margin-left: 357px;
+	
 }
 
 .sourse h4{
@@ -417,7 +417,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 	font-size: 20px;
 	margin-top: 30px;
 	height: 300px;
-	width: 800px;
+	
 	text-align: start;
 	border: 2px solid #40E0D0;
 	border-radius: 15px;

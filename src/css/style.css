@@ -206,9 +206,8 @@ main{
 }
 
 .item_skills{
-	border: 2px solid;
 	background: url(../img/about-me-bg.jpg) center/cover; 
-	height: 400px;
+
 }
 
 .item_skills li{
@@ -294,7 +293,6 @@ main{
 	background: url(../img/s3.jpg);
 	margin-top: 200px;
 	
-	height: 400px;
 }
 
 /* PARALLAX */
@@ -311,22 +309,21 @@ main{
 }
 
 .achivements li{
-		padding-left: 10%;
+	text-align: center;
+	padding-right: 50px;
 	float: left;
 	margin-top: 30px;
 	
 }
 
 .achivements h4{
-	font-size: 25px;
-	padding-left: 80px;
+	font-size: 20px;
 	padding-top: 20px;
 }
 
 .achivements img{
 	height: 50px;
 	width: 60px;
-	margin-left: 56px;
 	transition: all 1s;
 	animation: heartBeat;
 	animation-duration: 3s;
@@ -334,7 +331,7 @@ main{
 }
 
 .achivements p{
-	font-size: 18px;
+	font-size: 19px;
 	padding-top: 30px;
 }
 
@@ -358,7 +355,6 @@ main{
 }
 
 .sourse{
-	height: 600px;
 	background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b55eb3+0,3e21b2+35,00b2af+62,3d0066+100 */
 background: rgb(181,94,179); /* Old browsers */
 background: -moz-linear-gradient(left,  rgba(181,94,179,1) 0%, rgba(62,33,178,1) 35%, rgba(0,178,175,1) 62%, rgba(61,0,102,1) 100%); /* FF3.6-15 */
@@ -379,8 +375,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 
 .sourse li{
 	color: white;
-	display: flex;
-
+	text-align: center;	
+	padding-right: 50px;
+	padding-left: 50px;
+	float: left;
 	padding-top: 50px;
 	
 }
@@ -416,12 +414,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 .write{
 	font-size: 20px;
 	margin-top: 30px;
-	height: 300px;
-	
+	height: 200px;
+	width: 70%;	
 	text-align: start;
 	border: 2px solid #40E0D0;
 	border-radius: 15px;
-	margin-left: 70px;
+
+	
 }
 
 .sourse input{
@@ -433,6 +432,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', end
 }
 
 .send{
+	margin-top: 120px;
 	font-size: 20px;
 	height: 30px;
 	width: 120px;

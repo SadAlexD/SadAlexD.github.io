@@ -15,6 +15,18 @@ background: linear-gradient(to right,  rgba(181,94,179,1) 0%,rgba(62,33,178,1) 3
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55eb3', endColorstr='#3d0066',GradientType=1 ); /* IE6-9 */;
 }
 
+nav a{
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: white;
+}
+
+.active{
+	font-size: 30px;
+}
+
 .logo{
 	color: black;
 	font-size: 26px;
@@ -335,24 +347,35 @@ main{
 	padding-top: 30px;
 }
 
-.feedback{
-	margin-bottom: 300px;
-	margin-top: 200px;
-	padding-left: 30px;
+.carousel-inner{
 	text-align: center;
+	margin-top: 200px;
 }
 
-
-.feedback h2{
+.carousel-inner h2{
 	font-size: 30px;
 	text-decoration: underline #40E0D0;
 }
 
-.feedback h4{
-	font-size: 20px;
+.carousel-item h4{
+	font-size: 22px;
 	padding-top: 30px;
 	margin-bottom: 30px;
 }
+
+.carousel-item img{
+	border: 3px solid #40E0D0;
+	margin-top: 80px;
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+}
+
+.carousel-item p{
+	font-size: 18px;
+	margin-bottom: 200px;
+}
+
 
 .sourse{
 	background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b55eb3+0,3e21b2+35,00b2af+62,3d0066+100 */

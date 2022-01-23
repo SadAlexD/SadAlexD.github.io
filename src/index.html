@@ -37,17 +37,16 @@
 </script>
 
 
-	<nav>
+<nav>
 		<div class="container">
 			<div class="row">
 				<div class="col-xxl-2 col-lg-3 col-7 offset-none"><div class="logo">ChainedDog</div></div>
 				<div class="px-0 col-xxl-6 col-xl-7 col-lg-8 offset-xxl-4 offset-xl-2 offset-lg-none d-none d-lg-block"><div class="menu"><ul>
-			<li>Обо мне</li>
-			<li>Услуги</li>
-			<li>Кейсы</li>
-			<li>Прайс</li>
-			<li>Отзывы</li>
-			<li>Контакты</li>
+			<li><a href="#aboutMe">Обо мне</a></li>
+			<li><a href="#services">Услуги</a></li>
+			<li><a href="#prise">Прайс</a></li>
+			<li><a href="#feedBack">Отзывы</a></li>
+			<li><a href="#contacts">Контакты</a></li>
 			</ul>
 		</div></div>
 
@@ -57,18 +56,18 @@
     Меню
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item" href="#">Обо мне</a></li>
-    <li><a class="dropdown-item" href="#">Услуги</a></li>
-    <li><a class="dropdown-item" href="#">Кейсы</a></li>
-    <li><a class="dropdown-item" href="#">Прайс</a></li>
-    <li><a class="dropdown-item" href="#">Отзывы</a></li>
-    <li><a class="dropdown-item" href="#">Контакты</a></li>
+    <li><a class="dropdown-item" href="#aboutMe">Обо мне</a></li>
+    <li><a class="dropdown-item" href="#services">Услуги</a></li>
+    <li><a class="dropdown-item" href="#prise">Прайс</a></li>
+    <li><a class="dropdown-item" href="#feedBack">Отзывы</a></li>
+    <li><a class="dropdown-item" href="#contacts">Контакты</a></li>
   </ul>
 </div>
 
 		</div>
 	</div>	
 </nav>
+
 
 </header>
 
@@ -90,7 +89,7 @@
 
 <body>
 	<div class="container"><div class="row align-items-center">
-<div class="about_me">
+<div class="about_me" id="aboutMe">
 	<div class="col-lg-12">
 	<h2>Обо мне</h2>
 	<img src="img/avatar.jpg">
@@ -102,7 +101,7 @@
 </div>
 
 
-<div class="item_skills">
+<div class="item_skills" id="services">
 	<div class="container"><div class="row align-items-center">
 	<div class="d-flex col-lg-4 col-xxl-4 col-xl-4 offset-lg-4 justify-content-center"><h2>Что я умею:</h2></div>
 	 	
@@ -111,7 +110,7 @@
 	 	<li>
 	 		<img class="1" src="img/list.png" alt="image error">
 	 	<h4>Создание сайтов</h4>
-	 	<p>Описание</p>
+	 	<p>Создание сайтов с чистого листа, </p>
 	 </li>
 
 	 	<li>
@@ -133,26 +132,26 @@
 
 
 
-<div class="cost_calculation">
+<div class="cost_calculation" id="prise">
 	<div class="container"><div class="row align-items-center justify-content-center">
 		<div class="col-xxl-5"><h2>Рассчет стоимости</h2></div>
-	<div class="col-xxl-7 d-flex flex-column offset-xxl-1 col-xl-8 offset-xl-1 col-lg-9 offset-lg-1 col-11 offset-1"><h4>Website type</h4>
+	<div class="col-xxl-7 d-flex flex-column offset-xxl-1 col-xl-8 offset-xl-1 col-lg-9 offset-lg-1 col-11 offset-1"><h4>Тип сайта</h4>
 	 <select name="list1" id="list">
-		<option value="opt1">Первый вариант</option>
-		<option value="opt2">Второй вариант</option>
-		<option value="opt3">Третий вариант</option>
+		<option value="opt1">Визитка</option>
+		<option value="opt2">Интернет-магазин</option>
+		<option value="opt3">Корпоративный</option>
 	 </select>
-	 <h4>Website design</h4>
+	 <h4>Дизайн</h4>
 	 <select name="list2" id="list">
-	 <option value="opt4">Первый вариант</option>
-	 <option value="opt5">Второй вариант</option>
-	 <option value="opt6">Третий вариант</option>
+	 <option value="opt4">Шаблонный</option>
+	 <option value="opt5">Индивидуальный</option>
+	 <option value="opt6">Произвольный</option>
  </select>
-<h4>Website adaptability</h4>
+<h4>Адаптивность</h4>
  <select name="list3" id="list">
-	 <option value="opt7">Первый вариант</option>
-	 <option value="opt8">Второй вариант</option>
-	 <option value="opt9">Третий вариант</option>
+	 <option value="opt7">Для домашнего компьютера</option>
+	 <option value="opt8">Для телефона</option>
+	 <option value="opt9">Смешанный</option>
  </select>
 </div>
 </div>
@@ -163,7 +162,7 @@
 
 </div>
 </div>
-<div class="achivements">
+<div class="achivements" id="">
 	<div class="container"><div class="row ">
 		<div class="d-flex justify-content-center align-items-center col-xxl-4 offset-xxl-4 col-xl-4 offset-xl-4"><h1>Доска почета</h1></div>
 <div class="d-flex col-xxl-8 col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-6 offset-3 justify-content-center align-items-center">
@@ -175,12 +174,12 @@
 	</li>
 	<li>
 		<img src="img/v.png">
-		<h4>0</h4>
+		<h4>57</h4>
 		<p>Лет работы в сфере</p>
 	</li>
 	<li>
 		<img src="img/smile.png">
-		<h4>0</h4>
+		<h4>346</h4>
 		<p>Довольных клиентов</p>
 	</li>
 
@@ -190,18 +189,50 @@
 </div>
 </div>
 
+<div class="container">
+	<div class="row align-items-center">
+		<div class="col-lg-12">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+	<div class="carousel-indicators" id="feedBack">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+  	<h2>Отзывы</h2>
+    <div class="carousel-item active">
+      <img src="img/fB1.jpg" class="d-block" alt="...">
+      <h4>Alex</h4>
+      <p>Непосредственно будущий отзыв_1</p>
+</div>
+    <div class="carousel-item">
+      <img src="img/fB2.jpg" class="d-block" alt="...">
+      <h4>Sam</h4>
+      <p>Непосредственно будущий отзыв_2</p>
+    </div>
+    <div class="carousel-item">
+      <img src="img/fB3.jpg" class="d-block" alt="...">
+      <h4>Jady</h4>
+      <p>Непосредственно будущий отзыв_3</p>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</div>
+</div>
 
 
-<div class="feedback">
-	<div class="container"><div class="row align-items-center justify-content-center"><div class="col-xxl-8">
-<h2>Отзывы</h2>
-<h4>Здесь пока пусто, ваш отзыв будет первым ¯\_(ツ)_/¯</h4>
-</div>
-</div>
-</div>
-</div>
 
-<div class="sourse">
+<div class="sourse" id="contacts">
 	<div class="container"><div class="row "><div class="d-flex col-xxl-4 offset-xxl-4 justify-content-center align-items-start">
 <h2>Мои реквизиты</h2></div>
 

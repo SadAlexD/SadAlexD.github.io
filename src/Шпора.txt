@@ -259,3 +259,96 @@ if (count == 2) break; - остановка операции при выполн
 }
 
 
+let name = name.innerWidth - задает переменной значение ширины окна браузера
+let name = navigator.userAgent - находит информацию о пользователе
+let name = location.href - находит абсолютный путь к странице
+location.href = "http/..." -перенаправление пользователя
+history.forward/back() - перемещение на страницу вперед\назад
+
+
+--------jquery--------
+
+$(document).ready(function(){ - запасной вариант подключения скрипта
+$('#элементНейм').css("border", '2px solid red')
+$('.элементНейм') - обращение к классу
+})
+$('.class+Элемент') - обращение к дочернему элементу
+$('#элементНейм').children().css("border", '2px solid red') - обращение к дочернему элементу
+$('#элементНейм').parent().css("border", '2px solid red') - обращение к родительскому элементу
+$('.container').find('title__container').css("border", '2px solid red')
+li.eq(число) - пункт из списка по номеру
+.row.has(.col) - вызов элементов в которых есть колонки
+.row.parent - вызов родительских элементов
+.empty - вызов пустых элементов
+поиск атрибутов по окончаниям $ по совпадениям * по полному содержанию = 
+
+$(.class).click \ dbclick(function(){
+	$(this)toggleClass("red") - изменения цвета класса при нажатии
+})
+
+$(.class).mouseenter(function(){
+	$(this)toggleClass("red") - при наведении мыши
+
+
+	$(.class).mouseleave(function(){
+	$(this)toggleClass("red") - при уводе мыши
+
+	$(.class).focus(function(){
+	$(this)toggleClass("red") - фокусировка 
+
+	$(.class).change(function(){
+	$(this).text("hello, "+ $(this).val());
+	})
+
+	$(.class).change(function(){
+	$(this).text("hello, "+ $(this).val());
+	})
+
+	$(.class).keypress/keyup(function(){
+	$(this).text("hello, "+ $(this).val()); - событие при нажатии \ отпускании клавиши
+	})
+
+	$(.class).click(function(){
+	$(this).hide(1000); - прячет выбранный класс
+	})
+
+$(.class).click(function(){
+	$(this).delay(500).hide(1000).delay(1000).show(1000); - прячет и проявляет объект с задержкой 
+	})
+
+
+$(.class).click(function(){
+	$(this).animate({opacity '0.25'} ,1000); - изменение прозрачности (анимации)  
+	})
+
+	slideUp   slideDown
+
+
+$('img').click(function(){
+    $(this).fadeOut(500, function){
+	$(this).attr("src","адрес", fadeIn(500)); - плавная смена картинки при нажатии
+	})
+	})
+
+
+$('img').click(function(){
+    $(this).attr("data-target", "new-value")
+	})
+
+	$(this).addClass
+
+
+	.toggleClass(name1 name2) смена класса на другой
+
+	.append добавляет текст в конец
+ 	.prepend добавляет текст к началу при каждом исполнении события
+ 	.after добавляет текст в новый параграф
+ 	.before перед полем 
+ 	.wrap (div class="..") обернуть параграф в новый класс
+ 	.unwrap наоборот
+ 	.remove удаляет объект
+
+
+
+
+

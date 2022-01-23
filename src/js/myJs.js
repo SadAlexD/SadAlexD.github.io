@@ -2,6 +2,7 @@
  "use strict"
 
 
+/*
 let siteType = prompt ("Выберите желаемый тип сайта: Сайт-визитка - 1 Интернет магазин - 2 Корпоративный - 3");
 console.log(siteType);
 let cost1;
@@ -63,6 +64,32 @@ console.log("Общая стоимость работы составляет: "+
 let timeTotal = time1 + time2 + time3;
 console.log("Примерное время выполнения работы: "+timeTotal+" дня(ей)");
 
+
+*/
+
+
+$(window).scroll(() => {
+	let scrollDIstance = $(window).scrollTop();
+
+	$(".section").each((i, el) => {
+
+		if($(el).offset().top - $("nav").outerHeight() <= scrollDistance) {
+			$("nav a").each((e, el) => {
+				if ($(el).hasClass("active")){
+					$(el).removeClass("active");
+				}
+			};
+			$('nav li:eq('+ i +')').find('a').addClass('active');
+		}
+	}
+}
+
+
+$('a[href^="#"]').click(function(){
+	let valHref = $(this).attr("href");
+	$('html, body').animate({scrollTop: $(valHref).offset().top - 50 + "px"});
+
+});
 
 
 

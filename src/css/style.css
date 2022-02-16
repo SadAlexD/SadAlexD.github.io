@@ -218,22 +218,23 @@ main{
 }
 
 .item_skills{
-	background: url(../img/about-me-bg.jpg) center/cover; 
-
+	background: url(../img/about-me-bg.jpg) center/cover;
+	height: 400px;
 }
 
 .item_skills li{
-	padding-right: 50px;
+	
 	padding-top: 50px;
 	float: left;
 	text-align: center;
 }
 
 .item_skills h2{
-	padding-top: 40px;
+
+	padding-top: 100px;
 	text-decoration: underline #40E0D0;
 	font-size: 35px;
-	text-align: left;
+	text-align: center;
 	margin-top: 15px;
 }
 
@@ -258,6 +259,7 @@ main{
 
 .cost_calculation{
 	margin-top: 200px;
+	padding-top: 100px;
 	
 }
 
@@ -304,6 +306,7 @@ main{
 .achivements{
 	background: url(../img/s3.jpg);
 	margin-top: 200px;
+	height: 450px;
 	
 }
 
@@ -313,7 +316,8 @@ main{
 /*PARALLAX*/
 
 .achivements h1{
-	padding-top: 40px;
+
+	padding-top: 100px;
 	padding-bottom: 40px;
 	font-size: 30px;
 	
@@ -347,6 +351,11 @@ main{
 	padding-top: 30px;
 }
 
+.carousel-item-achivements {
+	height: 650px;
+	width: 800px;
+}
+
 .carousel-inner{
 	text-align: center;
 	margin-top: 200px;
@@ -376,6 +385,34 @@ main{
 	margin-bottom: 200px;
 }
 
+.carousel-indicators [data-bs-target] {
+	box-sizing: content-box;
+	flex: 0 1 auto;
+	width: 30px;
+	height: 3px;
+	padding: 0;
+	margin-right: 3px;
+	margin-left: 3px;
+	text-indent: -999px;
+	cursor: pointer;
+	background-color: cyan;
+	background-clip: padding-box;
+	border: 0;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	opacity: .5;
+	transition: opacity .6 ease;
+}
+
+.carousel-item{
+}
+
+.FeedBack {
+	padding-bottom: 150px;
+}
+
+
+	
 
 .sourse{
 	background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b55eb3+0,3e21b2+35,00b2af+62,3d0066+100 */
